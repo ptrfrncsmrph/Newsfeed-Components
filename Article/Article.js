@@ -23,7 +23,7 @@ class Article {
   }
 }
 
-window.onload = () => {
+const renderArticle = () => {
   let articles = document.querySelectorAll(".article")
   articles.forEach(Article.of)
 }

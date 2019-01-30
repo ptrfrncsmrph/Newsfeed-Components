@@ -1,4 +1,4 @@
-window.onload = () => {
+const renderMenu = () => {
   const toggleMenu = () => {
     menu.classList.toggle("menu--open")
   }
